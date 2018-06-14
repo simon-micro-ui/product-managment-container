@@ -5,7 +5,7 @@ Add the following to package.json
     "@webcomponents/custom-elements": "^1.1.1",
     "@webcomponents/webcomponentsjs": "^2.0.0",
 
-Add the following to angular.js
+Add the following to angular.js.  During the build, this will bundle the included javascript files in a scripts.js file within the dist folder.
 
         "build": {
             ....
@@ -15,10 +15,16 @@ Add the following to angular.js
               ....
               ....
 
+Then, add the scripts.js file to ./src/index.html, i.e. 
+
+	<body>
+	   <script type="text/javascript" src="scripts.js"></script>
+	   <app-root></app-root>
+	</body>
+
 Install the angular cli:
               
 	yarn global add @angular/cli
-
 
 Build the project:
 
