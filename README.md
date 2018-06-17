@@ -26,6 +26,10 @@ Install the angular cli:
               
 	yarn global add @angular/cli
 
+Pull down the dependencies.  See https://yarnpkg.com/lang/en/docs/cli/install
+
+	yarn install
+
 Build the project:
 
 	ng build
@@ -33,6 +37,10 @@ Build the project:
 Run it:
 
 	ng serve
+
+## Optional Creation of a Local Package Manager
+
+
 
 # Original 
 
