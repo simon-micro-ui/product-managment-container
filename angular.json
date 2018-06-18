@@ -24,7 +24,6 @@
             "styles": ["src/styles.css"],
             "scripts": [
               "node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js",
-              "web-components/angular6/product-header2/product-header.js",
               {
                 "input":
                   "node_modules/document-register-element/build/document-register-element.js"
