@@ -19,7 +19,10 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "./tsconfig.json",
             "assets": [
-              "src/favicon.ico", "src/assets",
+              "src/favicon.ico", 
+              "src/assets", 
+              { "glob": "document-register-element.js", "input": "node_modules/document-register-element/build", "output": "/assets/lib" },
+              { "glob": "webcomponents-loader.js", "input": "node_modules/@webcomponents/webcomponentsjs", "output": "/assets/lib" }
             ],
             "styles": ["src/styles.css"],
             "scripts": [
@@ -27,7 +30,7 @@
               {
                 "input":
                   "node_modules/document-register-element/build/document-register-element.js"
-              }
+              }            
             ]
           },
           "configurations": {
