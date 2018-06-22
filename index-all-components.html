@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Product View (from Mgmt)</title>
+    <title>Product View Plain</title>
     <base href="/">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 
-    <link rel="stylesheet" href="http://localhost:8082/styles.css"></head>
+    <link rel="stylesheet" href="http://localhost:8082/styles.css">
+</head>
 
 </head>
 <body>
@@ -16,10 +17,14 @@
 <script type="text/javascript" src="assets/lib/document-register-element.js"></script>
 <script type="text/javascript" src="assets/lib/webcomponents-loader.js"></script>
 <script type="text/javascript" src="assets/lib/custom-elements-es5-adapter.js"></script>
+<!-- <script type="text/javascript" src="node_modules/zone.js/dist/zone.js"></script> -->
 
-<product-view></product-view>
+<product-header></product-header>
+<script type="text/javascript" src="http://localhost:8081/product-header.js"></script>
 
-<script type="text/javascript" src="http://localhost:8082/product-view.js"></script>
+
+<script type="text/javascript" src="http://localhost:8083/product-cart.js"></script>
+<product-cart></product-cart>
 
 </body>
 </html>
