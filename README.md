@@ -38,6 +38,12 @@ Run it:
 
 	ng serve
 
+
+## Build Components with ngx-build-plus
+
+https://github.com/manfredsteyer/ngx-build-plus
+
+
 ## Optional Creation of a Local Package Manager
 
 
