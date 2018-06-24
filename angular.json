@@ -23,7 +23,18 @@
               "src/assets", 
               { "glob": "document-register-element.js", "input": "node_modules/document-register-element/build", "output": "/assets/lib" },
               { "glob": "webcomponents-loader.js", "input": "node_modules/@webcomponents/webcomponentsjs", "output": "/assets/lib" },
-              { "glob": "custom-elements-es5-adapter.js", "input": "node_modules/@webcomponents/webcomponentsjs", "output": "/assets/lib" }
+              { "glob": "custom-elements-es5-adapter.js", "input": "node_modules/@webcomponents/webcomponentsjs", "output": "/assets/lib" },
+
+              { "glob": "native-shim.js", "input": "node_modules/@webcomponents/custom-elements/src", "output": "/assets/lib" },
+
+              { "glob": "zone.js", "input": "node_modules/zone.js/dist", "output": "/assets/lib" },
+
+              { "glob": "rxjs.umd.js", "input": "node_modules/rxjs/bundles", "output": "/assets/lib" },
+
+              { "glob": "core.umd.min.js", "input": "node_modules/@angular/core/bundles", "output": "/assets/lib" },
+              { "glob": "common.umd.min.js", "input": "node_modules/@angular/common/bundles", "output": "/assets/lib" },
+              { "glob": "platform-browser.umd.min.js", "input": "node_modules/@angular/platform-browser/bundles", "output": "/assets/lib" },
+              { "glob": "elements.umd.min.js", "input": "node_modules/@angular/elements/bundles", "output": "/assets/lib" }
             ],
             "styles": ["src/styles.css"],
             "scripts": [

@@ -9,7 +9,7 @@ app.use(express.static(__dirname + '/dist/productmgt'));
 
 app.get('/index.html', function(req,res) {
     console.log('__dirname:'+__dirname);
-    res.sendFile(path.join(__dirname+'/index.html'));
+    res.sendFile('index.html');
 });
 
 app.get('/index-all-components.html', function(req,res) {
